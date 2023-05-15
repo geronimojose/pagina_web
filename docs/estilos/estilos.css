@@ -9,13 +9,19 @@ header {
   height: 100px;
   width: 1110px;
   margin:auto;
-  text-align: center;
+  text-align: right;
+  font-family: 'Darumadrop One', cursive;
+  background-color: rgb(158, 153, 153);
+  
 }
 nav{
   border:1px solid green;
   height: 50px;
   width: 1110px;
   margin:auto;
+  text-align:center;
+  background-color: #031a11;
+  
 }
 section{
   border:1px solid red;
@@ -34,13 +40,13 @@ aside{
   border: 1px solid blue;
   height: 290px;
   width: 400px;
-  float: left;
+  float: right;
 }
 article{
   border: 1px solid black;
-  height: 95px;
+  height: 145px;
   width: 695px;
-  float: left;
+  float: right;
 }
 ul li{
   border: 1px solid black;
@@ -48,7 +54,7 @@ ul li{
   display: inline-block;
   margin-left: 50px;
   font-family: 'Darumadrop One', cursive;
-
+  color: white  ;
 }
 header img{
   height:95px;
